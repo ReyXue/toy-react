@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        main: './main.js',
+        main: './src/main.js',
     },
     mode: "development",
     optimization: {
@@ -8,8 +8,8 @@ module.exports = {
     },
     module: {
         rules: [
-            { test: /\.css$/, use: 'css-loader' },
-            { test: /\.ts$/, use: 'ts-loader' },
+            // { test: /\.css$/, use: 'css-loader' },
+            // { test: /\.ts$/, use: 'ts-loader' },
             {
                 test: /\.js$/,
                 use: {
