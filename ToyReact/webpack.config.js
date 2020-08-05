@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        main: './src/main.js',
+        main: './day01/main.js',
     },
     mode: "development",
     optimization: {
